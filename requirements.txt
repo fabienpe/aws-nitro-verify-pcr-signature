@@ -1,0 +1,4 @@
+cbor2==5.2.0
+click==8.1.3
+cryptography==3.3.2
+pycose==1.0.1
