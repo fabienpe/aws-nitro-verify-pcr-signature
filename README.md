@@ -12,7 +12,7 @@ The following are assumed to be installed on a Linux system:
 
 - Python3.x
 - [Docker](https://docs.docker.com/engine/install/)
-- [nitro-cli](https://docs.aws.amazon.com/enclaves/latest/user/nitro-enclave-cli-install.html)
+- [nitro-cli](https://github.com/aws/aws-nitro-enclaves-cli)
 - Python environnement with libraries listed in `requirements.txt`
 
 ## Usage
@@ -23,5 +23,11 @@ The following are assumed to be installed on a Linux system:
 
     ```
     python main.py nitro-enclave.eif --cert_file_path nitro-enclave-certificate.pem
+    ```
+
+1. The PCR0 and PCR8 values can be compared with the output of
+
+    ```
+    nitro-cli describe-eif --eif-path nitro-enclave.eif
     ```
 
