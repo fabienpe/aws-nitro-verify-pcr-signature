@@ -1,5 +1,5 @@
 """
-This is a simple Python script that can be used to of a Nitro Enclave Image File (EIF) version 4.
+This is a simple Python script that can be used to verify PCR0 and PCR8 values of a Nitro Enclave Image File (EIF) version 4.
 
 Author: https://github.com/fabienpe/
 """
