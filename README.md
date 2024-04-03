@@ -1,4 +1,4 @@
-# Verify AWS Nitro enclave PCR0 signature
+# Verify AWS Nitro enclave PCR values and signature
 
 This is a simple Python script that can be used to [verify the value of PCR values and of the the signature of the PCR0](https://github.com/aws/aws-nitro-enclaves-cli/blob/f96a1aeae6162328d90648eb5756a54ac7c5e6d1/docs/image_signing.md) of a Nitro Enclave Image File (EIF) version 4.
 
